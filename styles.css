@@ -115,7 +115,7 @@ nav {
   border: none;
   outline: none;
   border-radius: 20px;
-  font-size: 10vh;
+  font-size: 70px;
   transition: 0.2s;
 }
 .registerButton:hover {
