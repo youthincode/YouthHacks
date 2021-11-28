@@ -41,7 +41,7 @@ nav {
   text-decoration: none;
   list-style: none;
   min-height: 15vh;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(5px);
   background-color: rgba(0, 72, 189, 0.1);
   width: 100%;
   font-family: "Montserrat", sans-serif;
@@ -115,7 +115,7 @@ nav {
   border: none;
   outline: none;
   border-radius: 20px;
-  font-size: 50px;
+  font-size: 10vh;
   transition: 0.2s;
 }
 .registerButton:hover {
@@ -209,4 +209,39 @@ nav {
   width: 85%;
   word-wrap: normal;
   margin-bottom: 20px;
+}
+
+
+
+.sponsorListGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  justify-content: center;
+}
+.sponsorItemCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  transition: 0.2s;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.sponsorItemCard h3{
+  overflow: visible;
+  text-align: center;
+  color: white;
+}
+.sponsorItemCard:hover{
+  transform: scale(1.175);
+  cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .experienceListGrid {
+    grid-template-columns: repeat(auto-fit, 95vw);
+  }
 }

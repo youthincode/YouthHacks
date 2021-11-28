@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Youth In Code Hacks</title>
+        <title>Youth Hacks</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -132,7 +132,7 @@
         <div style="width: 100%; display: flex; flex-direction: column; align-items: center;">
             <br>
             <br>
-            <h1 style="overflow: hidden; color: white; font-size: xxx-large; transform: scale(1.3);">Schedule</h1>
+            <h1 style="overflow: hidden; color: white; font-size: xxx-large; transform: scale(1.3); z-index: -10;">Schedule</h1>
             <br>
             <div class="scheduleButtons">
                 <button class="dateButton" id="day1" onclick="displaySchedule(id)">December 17, 2021</button>
@@ -246,12 +246,120 @@
             </div>
             
         </div>
-            
-            
-            
-            
-        </div>  
 
+
+
+        <div style="width: 100%; display: flex; flex-direction: column; align-items: center; overflow: hidden;">
+            <br>
+            <br>
+            <br>
+            <h1 style="overflow: hidden; color: white; font-size: xxx-large; transform: scale(1.3); z-index: -10;">Sponsors</h1> 
+        </div>
+            <br>
+            <div class="sponsorListGrid">
+                <div class="sponsorItemCard" onclick='openLink("https://www.hyperxgaming.com/en")'>
+                    <img src="SponsorLogos/hyperX.png" width="80%" style="filter: brightness(1.3);">
+                </div>
+                <div class="sponsorItemCard" onclick='openLink("https://www.amazon.ca/")'>
+                    <img src="SponsorLogos/Amazon_logo.svg" width="80%">
+                </div>
+                <div class="sponsorItemCard" onclick='openLink("https://www.facebook.com/")'>
+                    <img src="SponsorLogos/facebook.png" width="80%" style="border-radius: 10px;">
+                </div>
+                <div class="sponsorItemCard" onclick='openLink("https://about.google/")'>
+                    <img src="SponsorLogos/google.png" width="80%" style="filter: brightness(1.2);">
+                </div>
+
+                <div class="sponsorItemCard" onclick='openLink("https://mlh.io/")'>
+                    <img src="SponsorLogos/mlh.png" width="80%">
+                </div>
+
+                <div class="sponsorItemCard" onclick='openLink("https://replit.com/")'>
+                    <img src="SponsorLogos/replit.png" width="80%">
+                </div>
+
+                <div class="sponsorItemCard" onclick='openLink("https://artofproblemsolving.com/")'>
+                    <img src="SponsorLogos/aops-logo.svg" width="80%">
+                </div>
+
+                <div class="sponsorItemCard" onclick='openLink("https://github.com/")'>
+                    <img src="SponsorLogos/github.png" width="80%">
+                </div>
+
+                <div class="sponsorItemCard" onclick='openLink("https://www.linode.com/")'>
+                    <img src="SponsorLogos/linode.png" width="80%">
+                </div>
+
+                <div class="sponsorItemCard" onclick='openLink("https://www.wolframalpha.com/")'>
+                    <img src="SponsorLogos/wolfram.png" width="80%" style="filter: brightness(1.35);">
+                </div>
+
+                <div class="sponsorItemCard" onclick='openLink("https://www.hackhub.com/")'>
+                    <img src="SponsorLogos/hackhub.png" width="80%" style="border-radius: 10px; padding: 10px; filter: brightness(1.35);">
+                </div>
+
+                <div class="sponsorItemCard" onclick='openLink("https://www.echo3d.co/")'>
+                    <img src="SponsorLogos/echoar.png" width="80%"
+                        style="border-radius: 10px; padding: 10px; ">
+                </div>
+
+                <div class="sponsorItemCard" onclick='openLink("https://www.sublimetext.com/")'>
+                    <img src="SponsorLogos/sublime.png" width="80%"
+                        style="border-radius: 10px;border-radius: 10px;">
+                </div>
+            </div>
+
+        <div style="width: 100%; display: flex; flex-direction: column; align-items: center; overflow: hidden;">
+            <br>
+            <br>
+            <br>
+            <h1 style="overflow: hidden; color: white; font-size: xxx-large; transform: scale(1.3); z-index: -10;">Prizes</h1>
+        </div>
+        
+        <br>
+        <div class="sponsorListGrid">
+
+            <div class="sponsorItemCard" onclick='openLink("https://hackplus.io/")'>
+                <h3>Fiscal Sponsorship by Hack+</h3>
+            </div>
+            <div class="sponsorItemCard" onclick='openLink("https://www.echo3d.co/")'>
+                <h3>Premium Services from EchoAR</h3>
+            </div>
+            <div class="sponsorItemCard" onclick='openLink("https://www.taskade.com/")'>
+                <h3>Taskade Lifetime updrades for Winners</h3>
+            </div>
+            <div class="sponsorItemCard" onclick='openLink("https://www.taskade.com/")'>
+                <h3>Taskade 5-Year Upgrades for everyone</h3>
+            </div>
+
+            <div class="sponsorItemCard" onclick='openLink("https://bubble.io/")'>
+                <h3>$1,000 in Bubble credits for 6 months for each member of the winning team</h3>
+            </div>
+
+            <div class="sponsorItemCard" onclick='openLink("https://www.sketch.com/")'>
+                <h3>2x Sketch Workspace subscriptions. Free for everyone during the event!</h3>
+            </div>
+            <div class="sponsorItemCard" onclick='openLink("https://www.stickermule.com/ca")'>
+                <h3>Stickermule: Free Stickers</h3>
+            </div>
+            <div class="sponsorItemCard" onclick='openLink("https://hackclub.com/bank/")'>
+                <h3>Hack Club-Bank: Hack Club Stickers</h3>
+            </div>
+            <div class="sponsorItemCard" onclick='openLink("https://www.gather.town/")'>
+                <h3>Gather: Discounts for software</h3>
+            </div>
+            
+            
+            
+            
+        </div>
+
+        
+
+
+        
+        
+    
         
     
     </div>

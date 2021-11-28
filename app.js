@@ -28,3 +28,8 @@ const displaySchedule = (id) => {
   }
   document.getElementById(`eventList:${idNum}`).hidden = false;
 };
+
+
+function openLink(link) {
+  window.open(link, "_blank");
+}
