@@ -12,7 +12,7 @@ body {
   background: linear-gradient(
     180deg,
     rgb(146, 140, 255) 0%,
-    rgb(180, 122, 206) 100%
+    rgb(175, 87, 216) 100%
   );
 }
 
@@ -233,11 +233,47 @@ nav {
   text-align: center;
   color: white;
 }
+
+.sponsorItemCard h1{
+  overflow: visible;
+  text-align: center;
+  color: white;
+}
+.sponsorItemCard h5{
+  overflow: visible;
+  text-align: center;
+  color: white;
+}
 .sponsorItemCard:hover{
   transform: scale(1.175);
   cursor: pointer;
-
 }
+
+.NameItemCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  transition: 0.2s;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.NameItemCard h1{
+  overflow: visible;
+  text-align: center;
+  color: white;
+}
+.NameItemCard h5{
+  overflow: visible;
+  text-align: center;
+  color: white;
+}
+.NameItemCard:hover{
+  transform: scale(1.175);
+}
+
+
 
 
 @media screen and (max-width: 800px) {
